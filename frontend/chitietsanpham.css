@@ -1,0 +1,185 @@
+*{margin:0;padding: 0;}
+
+.logo {
+    width: 115px;
+    height: 95px;
+    background-image: url(../image/back2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.slides .slide a{text-decoration: none;}
+.slides .slide {width: 30%;height: 400px;text-align: center;margin-bottom: 40px;}
+
+.slide span {font-size: 20px;font-weight: bold;font-family: segoe ui light;}
+
+.slide p {font-size: 30px;font-family: segoe ui light;font-weight: bold;margin-bottom: 20px;color: #86ba09}
+
+.slides .slide img {width: 70%;height: 300px;border-radius: 20px;}
+
+.slides {width: 90%;display: flex;flex-wrap: wrap;justify-content: space-around;margin: 30px auto;}
+
+.sanphamkhac {width: 100%;}
+
+.sanphamkhac h1 {font-family: segoe ui light;text-align: center;}
+
+.bottom {width: 70%;margin: 30px auto;border-bottom: 1px solid #ececec;padding-bottom: 50px;}
+
+.bottom h5 {font-size: 20px;font-weight: bold;background: #86ba09;color: white;padding: 10px 20px;display: inline-block;font-family: segoe ui light;}
+
+.bottom p {margin-top: 30px;font-size: 22px;font-weight: bold;font-family: segoe ui light;}
+
+.giohang input[type="button"] {display: inline-block;width: 150px;font-size: 22px;font-weight: bold;font-family: segoe ui light;border: 2px solid;border-radius: 5px;padding-bottom: 1px;background: #d26e4b;color: white;cursor: pointer;}
+
+.chitiet {flex-grow: 1;padding-left: 66px;font-size: 30px;font-weight: bold;font-family: segoe ui light;}
+
+.giohang {width: 100%;height: 50px;}
+
+.giohang form {font-size: 50px;width: 100%;height: 100%;}
+
+.giohang input[type="number"] {display: inline-block;width: 90px;height: 30px;border: 2px solid;border-radius: 5px;font-size: 22px;text-align: center;padding-top: 1px;}
+
+.chitiet h2 {color: #1c1c1c;margin-top: 15px;}
+
+.chitiet span {color: #86ba09;margin-top: 10px;display: block;}
+
+.chitiet p {margin-top: 10px;margin-bottom: 22px;}
+
+.chitiet small {text-transform: uppercase;}
+
+.top .img {width: 300px;height: 300px;flex-shrink: 0;}
+
+.img img {width: 100%;height: 100%;object-fit: cover;border-radius: 10px;}
+
+.top {width: 70%;margin: 55px auto;height: 300px;display: flex;border-bottom: 1px solid #ececec;padding-bottom: 100px;}
+
+
+
+.menu_footer {width: 100%;height: 30px;background: rgba(255,255,255,0.5);text-align: center;font-family: segoe ui light;padding: 5px;font-weight: bold;}
+
+.box2,.box3 {width: 30%;text-align: center;}
+.box2 ul li a:hover{
+	color:  #86ba09;
+
+}
+.box3 ul li a:hover{
+	color:  #86ba09;
+	
+}
+.box2 ul li a{
+	transition: 0.5s;
+
+}
+.box3 ul li a{
+	transition: 0.5s;
+}
+.box2 ul {/* margin-top: 74px; */}
+
+.box2 h3,.box3 h3 {font-size: 30px;color: #1c1c1c;font-family: segoe ui light;width: 30%;margin-top: 41px;width: 100%;}
+
+.box2 ul li,.box3 ul li {list-style: none;margin-top: 40px;}
+
+.box2 ul li a,.box3 ul li a {text-decoration: none;color: #666;font-size: 20px;}
+
+.box1 {width: 30%;}
+
+.box1 span {font-size: 20px;font-family: segoe ui light;font-weight: bolder;display: block;margin-left: 30px;color: #666;}
+
+.box1 img {width: 40%;height: 120px;object-fit: contain;}
+
+.footer {width: 100%;/* height: 300px; */display: flex;/* color: #000000; */justify-content: space-evenly;background: #000000;}
+
+
+
+.menu>ul li:nth-child(3) ul {
+	display: flex;
+	flex-direction: column;
+	width: 174px;
+	align-items: center;
+	position: absolute;
+	/* top: 64px; */
+	left: 0;
+	border: 3px solid;
+	display: none;
+z-index: 10;
+background: #fdfeff;top: 46px;}
+
+
+
+
+
+.menu>ul li:nth-child(3) ul:after {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	transform: translate(-50%,-60%) rotate(45deg);
+	left: 20%;background: #fdfeff;
+	border-left: 3px solid;
+	border-top: 3px solid;
+	top:0;
+}
+
+
+.menu>ul li:nth-child(3) ul li {padding: 10px;width: 100%;box-sizing: border-box;text-align: center;margin-top: 15px;
+	transition: 0.5s;
+}
+
+.menu>ul li:nth-child(3) ul li:hover {background: #86ba09;}
+
+.contact {width: 20%;text-align: left;}
+
+span.fa.fa-user {color: rgba(102,102,102,0.85);}
+
+
+.contact ul {display: flex;justify-content: space-evenly;font-size: 20px;}
+
+span.fa.fa-user {}
+
+.contact ul li {list-style: none;}
+
+.contact ul li a {text-decoration: none;color: rgba(102,102,102,0.85);}
+
+.menu ul li {list-style: none;}
+
+.menu ul li:nth-child(3) {position: relative;}
+
+.menu ul li a {text-decoration: none;color: rgba(102,102,102,0.85);}
+
+
+
+.menu {width: 50%;}
+
+.menu>ul {display: flex;justify-content: space-evenly;color: rgb(7 25 39 / 15%);}
+
+a.logo {text-decoration: none;width: 20%;text-align: right;font-size: 30px;color: #86ba09;}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background: #fdfeff;
+	display: flex;
+	font-weight: 1000;
+	font-family: segoe ui light;
+justify-content: space-around;align-items: center;}
+.show{
+	display: block;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+
+.header .menu ul li a.color1{color:  #86ba09;}
+.rotate{
+	transform: rotate(180deg);
+	
+}
+.fa.fa-chevron-down{
+	transition: 0.2s;
+}
+
+
+.item {width: 30%;height: 400px;text-align: center;font-weight: bold;font-family: segoe ui light;font-size: 30px;margin-top: 40px;color: forestgreen;display: flex;flex-direction: column;justify-content: space-between;}

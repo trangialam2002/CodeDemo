@@ -1,0 +1,129 @@
+*{margin: 0;padding: 0;}
+.logo {
+    width: 115px;
+    height: 95px;
+    background-image: url(../image/back2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.color {
+    background: #f5f5f5;
+}
+.tintuc {
+    width: 77%;
+    margin: 65px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box_left {
+   width: 72%;
+    padding-top: 50px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.box_left .box {
+    display: flex;
+    background: #fff;
+    width: 100%;
+    height: 260px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.box a img {
+    flex-shrink: 0;
+    width: 165px;
+}
+.box .n001 {
+    width: 500px;
+}
+.n001 p {
+    font-size: 22px;
+}
+.n001 span {
+    display: block;
+    padding: 10px 0;
+}
+.n001 small {
+    font-size: 17px;
+    color: #555555;
+}
+.n001 a {
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.n001 span.fa.fa-long-arrow-right {
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.box_right {
+    width: 26%;
+}
+.box_right h3 {
+    text-align: center;
+    height: 65px;
+    background: #fff;
+    margin-top: 50px;
+    position: relative;
+    color: #86ba09;
+}
+.box_right h3:after{
+    content: "";
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #f5f5f5;
+}
+.khoi10 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 22px;
+    background: #fff;
+}
+.khoi10 h5 {
+    padding: 22px 0;
+    border-bottom: 3px solid #ececec;
+    margin-bottom: 15px;
+    width: 90%;
+    text-align: center;
+    color: #86ba09;
+}
+.layout {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 10px;
+}
+.layout img {
+    width: 70px;
+    flex-shrink: 0;
+}
+.layout .noidung1 {
+    width: 170px;
+    height: 110px;
+}
+.noidung1>p {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.noidung1 span {
+    font-size: 17px;
+}
+.noidung1 span.fa.fa-clock-o {
+    margin-right: 10px;
+}
+.n001 a{
+    color: #86ba09;
+}

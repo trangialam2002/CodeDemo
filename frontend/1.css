@@ -1,0 +1,276 @@
+*{margin:0;padding: 0;}
+
+.menu_footer {width: 100%;height: 30px;background: rgba(255,255,255,0.5);text-align: center;font-family: segoe ui light;padding: 5px;font-weight: bold;}
+
+.box2,.box3 {width: 30%;text-align: center;}
+.box2 ul li a:hover{
+	color:  #86ba09;
+
+}
+.logo {
+    width: 115px;
+    height: 95px;
+    background-image: url(../image/back2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.box3 ul li a:hover{
+	color:  #86ba09;
+	
+}
+.box2 ul li a{
+	transition: 0.5s;
+
+}
+.box3 ul li a{
+	transition: 0.5s;
+}
+.box2 ul {/* margin-top: 74px; */}
+
+.box2 h3,.box3 h3 {font-size: 30px;color: #1c1c1c;font-family: segoe ui light;width: 30%;margin-top: 41px;width: 100%;}
+
+.box2 ul li,.box3 ul li {list-style: none;margin-top: 40px;}
+
+.box2 ul li a,.box3 ul li a {text-decoration: none;color: #666;font-size: 20px;}
+
+.box1 {width: 30%;}
+
+.box1 span {font-size: 20px;font-family: segoe ui light;font-weight: bolder;display: block;margin-left: 30px;color: #666;}
+
+.box1 img {width: 40%;height: 120px;object-fit: contain;}
+
+.footer {width: 100%;/* height: 300px; */display: flex;/* color: #000000; */justify-content: space-evenly;background: #000000;}
+
+.footer {}
+
+.n2 {
+    width: 30%;
+    margin: 40px auto;
+    text-align: center;
+}
+.n1 span {display: inline-block;padding: 30px;/* text-align: center; *//* margin: auto; */border: 3px solid white;font-weight: bolder;color: white;font-size: 30px;font-family: segoe ui light;border-radius: 45px;}
+
+.n1 p {/* text-align: center; *//* width: 100%; */text-align: center;margin-top: 50px;color: white;font-weight: bolder;font-size: 20px;font-family: segoe ui light;}
+
+.n1 {background-image: url("https://mauweb.monamedia.net/cleverfood/wp-content/uploads/2019/05/banner25.jpg");background-size: cover;height: 450px;}
+
+.n1 h1 {text-align: center;/* margin-top: 28px; */padding-top: 50px;font-size: 65px;font-weight: bold;font-family: segoe ui light;color: white;}
+
+.itemProduct span {margin-top: 20px;display: block;text-align: center;font-size: 20px;font-weight: bold;color:  #86ba09;font-family: segoe ui light;overflow:hidden;}
+
+a.nameProduct {text-decoration: none;display: block;text-align: center;margin-top: 20px;font-size: 30px;font-family: segoe ui light;font-weight: bold;color: black;transition: 1s;}
+
+.itemProduct {width: 22%;margin-bottom: 15px;border: 3px double #dce6dc38;border-radius: 10px;}
+
+.itemProduct img {width: 100%;height: 300px;border-radius: 10px;transition: 1s;}
+.itemProduct:hover img{
+transform: scale(1.02);
+
+}
+.itemProduct span{
+	transition: 1s;
+}
+ a.nameProduct:hover,.itemProduct span:hover{
+	text-shadow: 2px 6px 8px #292929;
+}
+
+
+
+.product {width: 75%;margin: 0 auto;margin: 50px auto;}
+.product:last-of-type{
+	margin-top: -55px;
+}
+.product ul {display: flex;width: 100%;justify-content: space-evenly;align-items: center;margin-bottom: 50px;}
+
+.product ul li {width: 30%;text-align: center;list-style: none;font-size: 30px;font-weight: bold;font-family: segoe ui light;}
+
+
+
+h1 {text-align: center;margin-top: 100px;font-size: 50px;font-weight: bold;font-family: segoe ui light;}
+
+.item img {width: 100%;height: 85%;border-radius: 20px;text-align: center;transition: 1s;}
+.item img:hover{
+	transform: scale(1.2);
+}
+.item {width: 45%;height: 320px;display: flex;
+    justify-content: center;}
+
+.group {width: 75%;margin: -50px auto;display: flex;flex-wrap: wrap;z-index: 1;position: relative;justify-content: space-between;}
+
+h2 {position: absolute;top: 40%;left: 12%;text-shadow: 2px 6px 8px #292929;font-size: 50px;color: white;font-family: segoe ui light;}
+
+.slide h4 {background: #86ba09;height: 45px;text-align: center;line-height: 45px;color: white;font-size: 20px;font-weight: bold;position: absolute;top: 30%;left: 12%;font-family: segoe ui light;}
+
+.slide img {width: 35%;position: absolute;/* right: 50%; */left: 40%;top: 18%;}
+
+
+.menu>ul li:nth-child(3) ul {
+	display: flex;
+	flex-direction: column;
+	width: 174px;
+	align-items: center;
+	position: absolute;
+	/* top: 64px; */
+	left: 0;
+	border: 3px solid;
+	display: none;
+z-index: 10;
+background: #fdfeff;top: 46px;}
+
+
+
+
+
+.menu>ul li:nth-child(3) ul:after {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	transform: translate(-50%,-60%) rotate(45deg);
+	left: 20%;background: #fdfeff;
+	border-left: 3px solid;
+	border-top: 3px solid;
+	top:0;
+}
+
+
+.menu>ul li:nth-child(3) ul li {padding: 10px;width: 100%;box-sizing: border-box;text-align: center;margin-top: 15px;
+	transition: 0.5s;
+}
+
+.menu>ul li:nth-child(3) ul li:hover {background: #86ba09;}
+
+.contact {width: 20%;text-align: left;}
+
+
+.contact ul {display: flex;justify-content: space-evenly;font-size: 20px;}
+
+.contact ul li {list-style: none;}
+
+.contact ul li a {text-decoration: none;color: rgba(102,102,102,0.85);}
+
+.menu ul li {list-style: none;}
+
+.menu ul li:nth-child(3) {position: relative;}
+
+.menu ul li a {text-decoration: none;color: rgba(102,102,102,0.85);}
+
+
+
+.menu {width: 50%;}
+
+.menu>ul {display: flex;justify-content: space-evenly;color: rgb(7 25 39 / 15%);}
+
+a.logo {text-decoration: none;width: 20%;text-align: right;font-size: 30px;color: #86ba09;}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background: #fdfeff;
+	display: flex;
+	font-weight: 1000;
+	font-family: segoe ui light;
+justify-content: space-around;align-items: center;}
+.show{
+	display: block;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+.slides{
+	width: 100%;
+	height: 90%;
+	position: relative;
+}
+.slide{
+	width: 100%;
+	height: 100%;
+position: absolute;font-weight: bold;background-size: cover;font-family: segoe ui lght;
+visibility: hidden;
+}
+.slide.action{
+visibility: visible;
+}
+
+.action1{
+	animation: ani1 0.7s forwards;
+}
+@-webkit-keyframes ani1{
+	from{
+		transform:translateX(0%); opacity:1;
+	}
+	to{
+		transform: translateX(-100%);opacity: 0;
+	}
+} 
+.action2{
+	animation: ani2 0.7s forwards;
+}
+@-webkit-keyframes ani2{
+	from{transform:translateX(100%); opacity:0;}
+	to{transform: translateX(0%);opacity: 1;}
+} 
+
+.action3{
+	animation: ani3 0.7s forwards;
+}
+@-webkit-keyframes ani3{
+	from{
+		transform:translateX(0%); opacity:1;
+	}
+	to{
+		transform: translateX(100%);opacity: 0;
+	}
+} 
+.action4{
+	animation: ani4 0.7s forwards;
+}
+@-webkit-keyframes ani4{
+	from{transform:translateX(-100%); opacity:0;}
+	to{transform: translateX(0%);opacity: 1;}
+} 
+.slides:hover .fa.fa-angle-left,.slides:hover .fa.fa-angle-right {
+	visibility: visible;
+
+}
+
+.fa.fa-angle-left {position: absolute;font-size: 40px;color: white;top: 50%;left: 2%;transform: translateY(-50%);border: 1px solid;width: 40px;height: 40px;text-align: center;border-radius: 50%;
+visibility: hidden;
+transition:0.5s;
+}
+
+.fa.fa-angle-right {position: absolute;font-size: 40px;color: white;top: 50%;right: 2%;transform: translateY(-50%);border: 1px solid;width: 40px;height: 40px;text-align: center;border-radius: 50%;
+visibility: hidden;transition:0.5s;
+}
+.fa-angle-left:hover,.fa-angle-right:hover{
+	background:#86ba09;
+}
+.slide span {position: absolute;top: 60%;left: 15%;color: white;font-size: 20px;font-family: segoe ui light;text-transform: uppercase;border: 1px solid;padding: 7px 20px;border-radius: 100px;background: #86ba09;}
+.slide span:hover{
+	background:white;
+	color:#86ba09;
+}
+
+.slide p {position: absolute;top: 52%;left: 13%;color: #fffbf0b8;font-size: 20px;box-sizing: border-box;font-family: segoe ui light;}
+
+.listProduct {width: 100%;display: flex;justify-content: space-evenly;flex-wrap: wrap;}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: segoe ui light;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.product ul li a {text-decoration: none;color: black;}
+.product ul li a.color{color:  #86ba09;}
+.header .menu ul li a.color1{color:  #86ba09;}
+.rotate{
+	transform: rotate(180deg);
+	
+}
+.fa.fa-chevron-down{
+	transition: 0.2s;
+}

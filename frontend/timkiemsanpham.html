@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css">
+	<script src="../jquery/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="a1">
+			<form>
+				<input type="text" name="timkiemsanpham"placeholder="Tìm kiếm sản phẩm...">
+				<input type="submit" name="submit"value="Tìm">
+			</form>
+		</div>
+		<span class="fa fa-close"></span>
+	</div>
+</body>
+<script type="text/javascript">
+	$('.fa-close').click(function(){
+		$('.container').addClass('a2');
+		$(".contact ul li:first-child").show();
+	})
+</script>
+</html>
